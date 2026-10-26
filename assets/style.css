@@ -1068,6 +1068,105 @@ body.menu-open { overflow: hidden; }
   color: var(--accent);
 }
 
+/* ---------- 论文列表 ---------- */
+.pub-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+.pub-item {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr) 176px;
+  gap: 22px;
+  align-items: start;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub-index {
+  padding-top: 7px;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--accent-ink);
+}
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.pub-badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.67rem;
+  font-weight: 600;
+  color: var(--accent-ink);
+  background: var(--accent-soft);
+}
+.pub-venue {
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 0.61rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+.pub-title {
+  max-width: 850px;
+  margin-bottom: 10px;
+  font-family: var(--serif);
+  font-size: clamp(1.22rem, 2vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.015em;
+}
+.pub-authors {
+  margin-bottom: 9px;
+  font-size: 0.84rem;
+  line-height: 1.75;
+  color: var(--text-soft);
+}
+.pub-authors strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--muted);
+}
+.pub-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 6px;
+}
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+.pub-link .icon { width: 13px; height: 13px; }
+.pub-link:hover { color: var(--accent-ink); }
+.pub-note {
+  margin-top: 20px;
+  font-size: 0.76rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
 /* ---------- 作品 ---------- */
 .project-grid {
   display: grid;
@@ -1593,6 +1692,18 @@ body.menu-open { overflow: hidden; }
   .section-en { display: none; }
   .skill-grid { grid-template-columns: minmax(0, 1fr); }
   .skill-card > p { min-height: 0; }
+  .pub-item {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    padding: 24px 0;
+  }
+  .pub-index { display: none; }
+  .pub-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding-top: 2px;
+  }
   .timeline::before { left: 7px; }
   .timeline-item {
     grid-template-columns: minmax(0, 1fr);

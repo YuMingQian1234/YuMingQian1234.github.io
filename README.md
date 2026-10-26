@@ -13,9 +13,26 @@ Mingqian Yu 的个人主页，部署在 GitHub Pages：
 - 首屏：个人介绍、研究关键词、GitHub / arXiv / Hugging Face 入口
 - 关于：教育背景、研究兴趣、代表工作
 - 研究方向：视频理解、模型与推理、数据与工程
+- 论文发表：一作论文列表（作者、发表平台、arXiv / PDF / 代码链接）
 - 代表工作：T-LoopFormer、SportsCom、VILA 实践
 - 经历：SJTU AI Lab、PKU MIPL、YueXin Tech 实习，以及教育经历
 - 联系：GitHub、arXiv、SportsCom 数据集
+
+## 论文发表
+
+目前两篇第一作者论文，均发布在 arXiv 预印本平台：
+
+1. **T-LoopFormer: Token-Level Elastic-Depth Looped Transformers for Latent Reasoning with Dynamic Routing**
+   - 作者：Mingqian Yu, Wenpeng Zhang, Shaobo Cui, Peilin Zhao
+   - 平台：arXiv preprint · cs.AI · 2026
+   - 链接：[arXiv:2609.15160](https://arxiv.org/abs/2609.15160) · [PDF](https://arxiv.org/pdf/2609.15160) · [代码](https://github.com/YuMingQian1234/T-LoopFormer)
+
+2. **ContraFM-S2O: Flow Matching-Based One-step SAR-to-Optical Image Translation Model with Contrastive Learning**
+   - 作者：Mingqian Yu, Wei-kuan Chiang, Qiurui Wang, Peilin Zhao
+   - 平台：arXiv preprint · cs.CV · 2026
+   - 链接：[arXiv:2609.31378](https://arxiv.org/abs/2609.31378) · [PDF](https://arxiv.org/pdf/2609.31378)
+
+> 如果论文后续被会议或期刊接收，直接修改 `index.html` 里 `#papers` 区块的 `pub-venue` 和链接即可。
 
 ## 目录结构
 
