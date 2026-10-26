@@ -6,13 +6,15 @@ Mingqian Yu 的个人主页，部署在 GitHub Pages：
 
 纯 HTML / CSS / JavaScript 手写，没有构建步骤、没有第三方依赖，修改后 push 即可更新。
 
+当前研究兴趣：**LLM Pretraining、Looped Transformer、高效推理、生成与多模态**。
+
 ![页面预览](assets/preview.jpg)
 
 ## 页面内容
 
 - 首屏：个人介绍、研究关键词、GitHub / arXiv / Hugging Face 入口
 - 关于：教育背景、研究兴趣、代表工作
-- 研究方向：视频理解、模型与推理、数据与工程
+- 研究方向：大模型与推理、生成与多模态、数据与工程
 - 论文发表：一作论文列表（作者、发表平台、arXiv / PDF / 代码链接）
 - 代表工作：T-LoopFormer、SportsCom、VILA 实践
 - 经历：SJTU AI Lab、PKU MIPL、YueXin Tech 实习，以及教育经历
