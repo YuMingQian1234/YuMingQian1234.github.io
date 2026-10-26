@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>OG Card</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    html, body { width: 1200px; height: 630px; overflow: hidden; }
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", "Songti SC", "Noto Serif SC", Georgia, serif;
+      background: #0d0c11;
+      color: #f3efe6;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 90px;
+    }
+    .glow { position: absolute; border-radius: 50%; filter: blur(90px); }
+    .g1 { width: 620px; height: 620px; left: -150px; top: -220px; background: rgba(255, 106, 61, 0.34); }
+    .g2 { width: 560px; height: 560px; right: -120px; bottom: -220px; background: rgba(155, 131, 255, 0.3); }
+    .grid {
+      position: absolute; inset: 0; opacity: 0.28;
+      background-image: linear-gradient(rgba(243, 239, 230, 0.12) 1px, transparent 1px), linear-gradient(90deg, rgba(243, 239, 230, 0.12) 1px, transparent 1px);
+      background-size: 76px 76px;
+      -webkit-mask-image: radial-gradient(ellipse 90% 80% at 50% 30%, #000, transparent 75%);
+    }
+    .content { position: relative; z-index: 2; max-width: 790px; }
+    .eyebrow { font-family: monospace; font-size: 17px; letter-spacing: 4px; color: #ff8a63; margin-bottom: 32px; }
+    h1 { font-size: 88px; line-height: 1.08; font-weight: 500; letter-spacing: -4px; }
+    .grad { background: linear-gradient(100deg, #ff6a3d, #9b83ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .sub { margin-top: 28px; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 23px; color: #c9c2b5; letter-spacing: 0.5px; }
+    .brand { position: absolute; z-index: 3; top: 54px; right: 80px; display: flex; align-items: center; gap: 14px; }
+    .mark { width: 46px; height: 46px; border-radius: 14px; background: linear-gradient(135deg, #ff6a3d, #9b83ff); display: grid; place-items: center; font-family: -apple-system, "PingFang SC", sans-serif; font-size: 15px; letter-spacing: 0.5px; color: #fff; }
+    .brand span { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 15px; letter-spacing: 3px; color: #c9c2b5; }
+    .photo {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      right: 92px;
+      width: 264px;
+      height: 264px;
+      padding: 7px;
+      border-radius: 50%;
+      transform: translateY(-50%);
+      background: linear-gradient(135deg, #ff6a3d, #9b83ff);
+      box-shadow: 0 30px 70px -25px rgba(0, 0, 0, 0.85);
+    }
+    .photo img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center 24%; display: block; }
+    .rule { width: 130px; height: 3px; margin-top: 40px; background: linear-gradient(90deg, #ff6a3d, #9b83ff); }
+  </style>
+</head>
+<body>
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="grid"></div>
+  <div class="brand"><div class="mark">MY</div><span>MINGQIAN YU</span></div>
+  <div class="content">
+    <p class="eyebrow">VIDEO UNDERSTANDING · MULTIMODAL LLM</p>
+    <h1>让模型，<br>看懂<span class="grad">视频</span>。</h1>
+    <p class="sub">Mingqian Yu · 中国科学院自动化研究所</p>
+    <div class="rule"></div>
+  </div>
+  <div class="photo"><img src="avatar.jpg" alt=""></div>
+</body>
+</html>
