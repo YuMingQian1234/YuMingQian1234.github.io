@@ -13,10 +13,9 @@ Mingqian Yu 的个人主页，部署在 GitHub Pages：
 ## 页面内容
 
 - 首屏：个人介绍、研究关键词、GitHub / arXiv / Hugging Face 入口
-- 关于：教育背景、研究兴趣、代表工作
+- 关于：教育背景、研究兴趣、快速了解
 - 研究方向：大模型与推理、生成与多模态、数据与工程
 - 论文发表：一作论文列表（作者、发表平台、arXiv / PDF / 代码链接）
-- 代表工作：T-LoopFormer、SportsCom、VILA 实践
 - 经历：SJTU AI Lab、PKU MIPL、YueXin Tech 实习，以及教育经历
 - 联系：GitHub、arXiv、SportsCom 数据集
 

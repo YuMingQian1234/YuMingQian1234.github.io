@@ -84,7 +84,6 @@
         <a class="nav-link" href="#about">关于</a>
         <a class="nav-link" href="#skills">方向</a>
         <a class="nav-link" href="#papers">论文</a>
-        <a class="nav-link" href="#work">工作</a>
         <a class="nav-link" href="#journey">经历</a>
         <a class="nav-link" href="#contact">联系</a>
       </nav>
@@ -110,9 +109,8 @@
       <a href="#about"><span>01</span>关于</a>
       <a href="#skills"><span>02</span>方向</a>
       <a href="#papers"><span>03</span>论文</a>
-      <a href="#work"><span>04</span>工作</a>
-      <a href="#journey"><span>05</span>经历</a>
-      <a href="#contact"><span>06</span>联系</a>
+      <a href="#journey"><span>04</span>经历</a>
+      <a href="#contact"><span>05</span>联系</a>
       <div class="mobile-menu-foot">
         <a href="https://github.com/YuMingQian1234" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
         <a href="https://arxiv.org/abs/2609.15160" target="_blank" rel="noopener noreferrer">arXiv ↗</a>
@@ -381,95 +379,10 @@
       <p class="pub-note reveal">两篇均为一作论文，目前发表于 arXiv 预印本平台（cs.AI / cs.CV）。作者顺序与最新版本以 arXiv 页面为准。</p>
     </section>
 
-    <!-- ============ 代表工作 ============ -->
-    <section class="section container" id="work">
-      <div class="section-head reveal">
-        <span class="section-index">04</span>
-        <h2>代表工作</h2>
-        <span class="section-en">Selected Work</span>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <div class="project-visual v2" aria-hidden="true">
-            <div class="mock-terminal">
-              <div class="mock-top"><i></i><i></i><i></i></div>
-              <p><b>$</b> python train.py --looped</p>
-              <p class="dim">  router: token-choice · dynamic depth</p>
-              <p class="dim">  recursion-wise kv cache: on</p>
-              <p class="ok">✓ 12.4k steps · loss 1.82</p>
-              <p><b>$</b> benchmark latency</p>
-              <p class="ok">  decoding latency ↓ 23%</p>
-              <p class="cursor">█</p>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>01 / 一作论文 + 代码</span><span>2026</span></div>
-            <h3>T-LoopFormer</h3>
-            <p>Token-Level Elastic-Depth Looped Transformers：用 token 级动态路由决定每个 token 的循环深度，配合递归级 KV Cache 降低解码延迟。</p>
-            <ul class="project-tags"><li>Looped Transformers</li><li>Latent Reasoning</li><li>PyTorch</li></ul>
-            <div class="project-links">
-              <a class="project-link" href="https://arxiv.org/abs/2609.15160" target="_blank" rel="noopener noreferrer">论文 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-              <a class="project-link" href="https://github.com/YuMingQian1234/T-LoopFormer" target="_blank" rel="noopener noreferrer">代码 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card reveal" style="--d: 1">
-          <div class="project-visual v3" aria-hidden="true">
-            <div class="mock-chart">
-              <div class="mock-chart-head"><span>SportsCom</span><span class="live">● DATASET</span></div>
-              <div class="mock-bars">
-                <span style="--h: 38%"></span><span style="--h: 56%"></span><span style="--h: 47%"></span><span style="--h: 72%"></span><span style="--h: 61%"></span><span style="--h: 84%"></span><span style="--h: 76%"></span><span style="--h: 96%"></span>
-              </div>
-              <div class="mock-axis"><span>SPORT</span><span>CATEGORY</span><span>ATTRIBUTE</span><span>VIDEO</span></div>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>02 / 开源数据集</span><span>2026</span></div>
-            <h3>SportsCom</h3>
-            <p>大规模、多运动、多类别、多属性的体育解说数据集，面向 MLLM 视频理解，覆盖艺术、技术与战术层面的解说。</p>
-            <ul class="project-tags"><li>MLLM</li><li>Video Understanding</li><li>Dataset</li></ul>
-            <div class="project-links">
-              <a class="project-link" href="https://huggingface.co/datasets/Yumq123/SportsCom" target="_blank" rel="noopener noreferrer">数据集 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-              <a class="project-link" href="https://github.com/YuMingQian1234/SportsCom" target="_blank" rel="noopener noreferrer">代码 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-            </div>
-          </div>
-        </article>
-
-        <article class="project-card reveal" style="--d: 2">
-          <div class="project-visual v1" aria-hidden="true">
-            <div class="mock-window">
-              <div class="mock-top"><i></i><i></i><i></i></div>
-              <div class="mock-app">
-                <div class="mock-side"><span></span><span></span><span></span></div>
-                <div class="mock-main">
-                  <div class="mock-title"></div>
-                  <div class="mock-line w-90"></div>
-                  <div class="mock-line w-70"></div>
-                  <div class="mock-cards"><span></span><span></span><span></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-meta"><span>03 / 开源实践</span><span>2026</span></div>
-            <h3>VILA 实践</h3>
-            <p>复现并调试 VILA 系列视觉语言模型的训练与推理流程，探索多模态模型在视频理解任务上的表现。</p>
-            <ul class="project-tags"><li>VILA</li><li>Multimodal</li><li>Video</li></ul>
-            <div class="project-links">
-              <a class="project-link" href="https://github.com/YuMingQian1234/VILA" target="_blank" rel="noopener noreferrer">仓库 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-              <a class="project-link" href="https://github.com/NVlabs/VILA" target="_blank" rel="noopener noreferrer">上游项目 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
     <!-- ============ 经历 ============ -->
     <section class="section container" id="journey">
       <div class="section-head reveal">
-        <span class="section-index">05</span>
+        <span class="section-index">04</span>
         <h2>一路走来</h2>
         <span class="section-en">Journey</span>
       </div>
@@ -482,7 +395,6 @@
           <div class="timeline-content">
             <h3>研究实习生</h3>
             <p class="timeline-org">SJTU AI Lab · 上海</p>
-            <p>围绕多模态大模型与视频理解开展研究，参与模型训练、数据构建与实验分析。</p>
           </div>
         </div>
 
@@ -492,7 +404,6 @@
           <div class="timeline-content">
             <h3>研究实习生</h3>
             <p class="timeline-org">PKU MIPL · 北京</p>
-            <p>参与视觉与多模态方向的研究项目，做实验、读论文，也写了很多数据处理的脚本。</p>
           </div>
         </div>
 
@@ -502,7 +413,6 @@
           <div class="timeline-content">
             <h3>算法实习生</h3>
             <p class="timeline-org">YueXin Tech</p>
-            <p>第一次把课堂里的模型放到真实业务里，学习工程落地、实验管理和团队协作。</p>
           </div>
         </div>
 
@@ -512,7 +422,6 @@
           <div class="timeline-content">
             <h3>硕士研究生</h3>
             <p class="timeline-org">中国科学院自动化研究所 / 中国科学院大学 · 北京</p>
-            <p>研究方向：视频理解、多模态大语言模型与高效推理。</p>
           </div>
         </div>
 
@@ -522,7 +431,6 @@
           <div class="timeline-content">
             <h3>本科</h3>
             <p class="timeline-org">东北大学（NEU, China）</p>
-            <p>本科阶段开始接触深度学习与计算机视觉，并决定继续做研究。</p>
           </div>
         </div>
       </div>

@@ -1452,26 +1452,27 @@ body.menu-open { overflow: hidden; }
   display: flex;
   flex-direction: column;
 }
-.timeline::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 121px;
-  width: 1px;
-  background: var(--line);
-}
 .timeline-item {
   position: relative;
   display: grid;
-  grid-template-columns: 92px minmax(0, 1fr);
-  gap: 58px;
+  grid-template-columns: 124px minmax(0, 1fr);
+  gap: 40px;
   padding-block: 22px;
 }
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 33px;
+  bottom: -33px;
+  left: 144px;
+  width: 1px;
+  background: var(--line);
+}
+.timeline-item:last-child::before { display: none; }
 .timeline-year {
   padding-top: 4px;
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   letter-spacing: 0.02em;
   color: var(--accent-ink);
   white-space: nowrap;
@@ -1479,7 +1480,7 @@ body.menu-open { overflow: hidden; }
 .timeline-dot {
   position: absolute;
   top: 26px;
-  left: 114px;
+  left: 137px;
   display: grid;
   place-items: center;
   width: 15px;
@@ -1704,11 +1705,15 @@ body.menu-open { overflow: hidden; }
     gap: 8px 18px;
     padding-top: 2px;
   }
-  .timeline::before { left: 7px; }
   .timeline-item {
     grid-template-columns: minmax(0, 1fr);
     gap: 6px;
     padding-left: 32px;
+  }
+  .timeline-item::before {
+    top: 14px;
+    bottom: -14px;
+    left: 7px;
   }
   .timeline-year { padding-top: 0; }
   .timeline-dot { left: 0; top: 7px; }
