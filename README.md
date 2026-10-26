@@ -20,7 +20,7 @@ Mingqian Yu 的个人主页，部署在 GitHub Pages：
 ## 目录结构
 
 ```
-github-io/
+.
 ├── index.html          # 页面内容（主要改这里）
 ├── favicon.svg         # 站点图标
 ├── .nojekyll           # 告诉 GitHub Pages 不要用 Jekyll 处理
